@@ -1,0 +1,46 @@
+.item img{
+    cursor: pointer;
+}
+
+.imgCaption{
+    background-color: #fff;
+    bottom: 30px;
+    left: 10%;
+    width: 80%;
+}
+
+.layered{ 
+    z-index: 999999999;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .45);
+    display: none;  
+}
+
+.layered #lightBoxItem{
+    width: 50%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+
+.layered #lightBoxItem i{
+    cursor: pointer;
+}
+
+.layered #lightBoxItem i.fa-times{
+    top: 15px;
+    right: 20px;
+}
+
+.layered #lightBoxItem i.fa-chevron-right{
+    top: 50%;
+    right: 20px;
+}
+
+.layered #lightBoxItem i.fa-chevron-left{
+    top: 50%;
+    left: 20px;
+}
